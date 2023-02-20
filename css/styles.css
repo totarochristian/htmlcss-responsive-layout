@@ -307,7 +307,7 @@ footer .textContainer a{
         gap: 2rem;
     }
     .benefit{
-        width: calc(100% / 2 - 2rem);
+        width: calc(100% / 2 - 1.5rem);
     }
 }
 @media screen and (min-width: 992px){
@@ -330,7 +330,7 @@ footer .textContainer a{
         width: 80%;
     }
     .benefit{
-        width: calc(100% / 3 - 2rem);
+        width: calc(100% / 3 - 1.5rem);
     }
 }
 @media screen and (min-width: 1200px){
