@@ -99,10 +99,7 @@ main{
     background-color: var(--card-bg-color);
     margin-bottom: 10px;
 }
-.card-left-txt, .card-right-img{
-    width: calc(100% / 2);
-}
-.card-right-img img{
+.card-left-txt, .card-right-img, .card-right-img img{
     width: 100%;
 }
 
