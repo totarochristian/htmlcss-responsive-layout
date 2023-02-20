@@ -24,6 +24,7 @@
     --fs-p: 1.05rem;
     --fs-btn: 0.95rem;
     --fs-card-icon: 5rem;
+    --fs-benefit-number: 3rem;
 
     /* Transition variables */
 
@@ -112,7 +113,7 @@ h2{
     color: var(--light-color);
     letter-spacing: .1rem;
     font-weight: bold;
-    padding: 0.4rem 1rem;
+    padding: 0.6rem 2.8rem;
 }
 
 /*****************************************************************/
@@ -230,6 +231,21 @@ main{
 /*****************************************************************/
 #features .benefit{
     background-color: var(--light-color);
+    padding: 2.5rem 2rem 2rem 2rem;
+    margin-bottom: 2rem;
+}
+.benefit .number, .benefit h3{
+    color: var(--primary-color);
+}
+.benefit h3{
+    margin-top: 1.5rem;
+}
+.benefit p{
+    margin-bottom: 1.5rem;
+}
+.benefit .number{
+    font-size: var(--fs-benefit-number);
+    font-weight: bold;
 }
 
 /*****************************************************************/
