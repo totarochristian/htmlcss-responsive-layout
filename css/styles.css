@@ -107,7 +107,7 @@ h2{
     padding: 0.4rem 1rem;
 }
 .btn-purple{
-    font-size: calc(var(--fs-btn) + 0.15rem);
+    font-size: var(--fs-btn);
     background-color: var(--primary-color);
     color: var(--light-color);
     letter-spacing: .1rem;
@@ -225,6 +225,12 @@ main{
     margin: 2.5rem 0 1rem 0;
 }
 
+/*****************************************************************/
+/*************************** Features ****************************/
+/*****************************************************************/
+#features .benefit{
+    background-color: var(--light-color);
+}
 
 /*****************************************************************/
 /***************************** Footer ****************************/
