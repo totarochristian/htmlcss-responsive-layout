@@ -3,7 +3,7 @@
 /******************************************************************************/
 :root{
     /* Background variables */
-    
+
     /* Color styles */
     --dark-color: #333333;
     --header-color: #0084FD;
@@ -39,4 +39,13 @@
 /*****************************************************************/
 body{
     font-family: 'PT Sans', sans-serif;
+}
+header{
+    background-color: var(--header-color);
+}
+main{
+    background-color: var(--light-color);
+}
+footer{
+    background-color: var(--dark-color);
 }
