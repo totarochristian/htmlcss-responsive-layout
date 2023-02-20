@@ -67,6 +67,9 @@ ul{
 .capitalize{
     text-transform: capitalize;
 }
+.italic{
+    font-style: italic;
+}
 
 /*****************************************************************/
 /**************************** Buttons ****************************/
@@ -175,6 +178,36 @@ main{
 /*****************************************************************/
 /*************************** Planning ****************************/
 /*****************************************************************/
+#planning{
+    color: var(--light-color);
+}
+#planning img{
+    width: 100%;
+}
+#planning #appDevelopment{
+    background-color: var(--light-color);
+    margin: 1.8rem 0 0 0;
+    padding: 1rem 1rem;
+    color: var(--dark-color);
+}
+#planning #appDevelopment h3{
+    font-size: var(--fs-h3);
+    margin: 1.4rem 0;
+}
+#planning #appDevelopment p{
+    font-size: var(--fs-p);
+    line-height: 1.6;
+    font-weight: 500;
+}
+#planning #appDevelopment a{
+    background-color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: var(--fs-h3);
+    padding-top: 12px;
+    margin: 2.5rem 0 1rem 0;
+}
 
 
 /*****************************************************************/
