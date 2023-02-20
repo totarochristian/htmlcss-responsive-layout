@@ -225,6 +225,21 @@ footer{
     background-color: var(--dark-color);
     color: var(--light-color);
 }
+footer .container{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 1rem;
+}
+footer .container .textContainer{
+    max-width: 450px;
+    padding: 0 1rem;
+}
+footer .container .textContainer p:first-child{
+    margin-bottom: 4rem;
+}
+footer .textContainer a{
+    color: var(--primary-color);
+}
 
 /*****************************************************************/
 /***************************** Media *****************************/
