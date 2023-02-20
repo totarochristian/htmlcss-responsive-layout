@@ -279,7 +279,7 @@ footer .textContainer a{
     .d-flex{
         display: flex;
         flex-flow: row wrap;
-        gap: 1rem;
+        gap: 1.5rem;
     }
     .d-f-content-center{
         justify-content: center;
@@ -303,6 +303,12 @@ footer .textContainer a{
     #planning #appDevelopment{
         padding: 2rem 3rem;
     }
+    .benefits.d-flex{
+        gap: 2rem;
+    }
+    .benefit{
+        width: calc(100% / 2 - 2rem);
+    }
 }
 @media screen and (min-width: 992px){
     #intro .card:first-child{
@@ -322,6 +328,9 @@ footer .textContainer a{
     }
     #planning #appDevelopment img{
         width: 80%;
+    }
+    .benefit{
+        width: calc(100% / 3 - 2rem);
     }
 }
 @media screen and (min-width: 1200px){
