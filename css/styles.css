@@ -49,6 +49,12 @@ main section:nth-child(even){
 ul{
     list-style: none;
 }
+.text-center{
+    text-align: center;
+}
+.small-bord-rad{
+    border-radius: 10px;
+}
 
 /*****************************************************************/
 /***************************** Header ****************************/
@@ -91,8 +97,13 @@ main{
 .card{
     width: 100%;
     background-color: var(--card-bg-color);
-    border-radius: 10px;
     margin-bottom: 10px;
+}
+.card-left-txt, .card-right-img{
+    width: calc(100% / 2);
+}
+.card-right-img img{
+    width: 100%;
 }
 
 /*****************************************************************/
@@ -101,4 +112,23 @@ main{
 footer{
     background-color: var(--dark-color);
     color: var(--light-color);
+}
+
+/*****************************************************************/
+/***************************** Media *****************************/
+/**************************** Queries ****************************/
+/*****************************************************************/
+@media screen and (min-width: 768px){
+    #intro .container{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+    }
+    .card{
+        width: calc(100% / 3 - 1rem);
+    }
+    #intro .card:first-child{
+        width: calc((100% / 3) * 2 - 1rem);
+        display: flex;
+    }
 }
