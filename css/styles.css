@@ -68,6 +68,9 @@ header nav{
     justify-content: space-between;
     align-items: center;
 }
+header nav ul{
+    display: none;
+}
 
 /*****************************************************************/
 /****************************** Main *****************************/
