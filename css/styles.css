@@ -42,10 +42,13 @@ body{
 }
 header{
     background-color: var(--header-color);
+    color: var(--light-color);
 }
 main{
     background-color: var(--light-color);
+    color: var(--dark-color);
 }
 footer{
     background-color: var(--dark-color);
+    color: var(--light-color);
 }
