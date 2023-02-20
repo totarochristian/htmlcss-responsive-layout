@@ -72,17 +72,24 @@ ul{
 /**************************** Buttons ****************************/
 /*****************************************************************/
 .btn{
-    color: var(--light-color);
     font-size: var(--fs-btn);
     padding: 0.6rem 3rem;
     border: 2px solid transparent;
-    font-weight: bold;
-    letter-spacing: .1rem;
-    margin: 1.8rem 0 1.8rem 0;
 }
 .btn-blue{
+    color: var(--light-color);
     background-color: var(--header-color);
     border-radius: var(--bdr-small);
+    letter-spacing: .1rem;
+    margin: 1.8rem 0 1.8rem 0;
+    font-weight: bold;
+}
+.btn-white{
+    font-size: calc(var(--fs-btn) + 0.15rem);
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border-radius: var(--bdr-small);
+    padding: 0.4rem 1rem;
 }
 
 /*****************************************************************/
@@ -109,6 +116,7 @@ header nav ul{
 header nav a, header nav a:visited{
     color: var(--light-color);
     font-size: var(--fs-header);
+    text-decoration: none;
 }
 header .container{
     padding-top: 1rem;
@@ -202,6 +210,18 @@ footer{
     }
 }
 @media screen and (min-width: 1200px){
+    header nav>a{
+        display: none;
+    }
+    header nav ul{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        gap: 2rem;
+    }
+    header nav a, header nav a:visited{
+        font-size: calc(var(--fs-header) - 0.3rem);
+    }
     #intro .card:first-child{
         flex-flow: row wrap;
     }
