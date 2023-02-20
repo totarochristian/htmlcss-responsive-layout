@@ -52,3 +52,6 @@ footer{
     background-color: var(--dark-color);
     color: var(--light-color);
 }
+main section:nth-child(even){
+    background-color: var(--primary-color);
+}
