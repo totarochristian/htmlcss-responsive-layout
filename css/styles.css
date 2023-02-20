@@ -11,12 +11,16 @@
     --contrast-color: #FDC15F;
 
     /* Border variables */
+    --bdr-small: 20px;
+    --bdr-large: 40px;
 
     /* Hover variables */
     
     /* Size variables */
     --header-height: 80px;
     --fs-header: 1.5rem;
+    --fs-h3: 1.5rem;
+    --fs-p: 1.05rem;
 
     /* Transition variables */
 
@@ -50,7 +54,10 @@ ul{
     text-align: center;
 }
 .small-bord-rad{
-    border-radius: 10px;
+    border-radius: var(--bdr-small);
+}
+.large-bord-rad{
+    border-radius: var(--bdr-large);
 }
 
 /*****************************************************************/
@@ -106,6 +113,21 @@ main{
 }
 .card-left-txt, .card-right-img, .card-right-img img{
     width: 100%;
+}
+.card h3{
+    color: var(--header-color);
+    font-size: var(--fs-h3);
+    padding-bottom: 1.8rem;
+}
+.card:first-child p{
+    text-align: left;
+}
+.card p{
+    color: var(--dark-color);
+    font-weight: bold;
+    opacity: 70%;
+    font-size: var(--fs-p);
+    line-height: 1.8;
 }
 
 /*****************************************************************/
