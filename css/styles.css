@@ -53,6 +53,7 @@ header{
 main{
     background-color: var(--light-color);
     color: var(--dark-color);
+    margin-top: 80px;
 }
 footer{
     background-color: var(--dark-color);
