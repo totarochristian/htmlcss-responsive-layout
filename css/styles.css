@@ -40,6 +40,19 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
+main section:nth-child(even){
+    background-color: var(--primary-color);
+}
+.container{
+    padding: 2rem 1rem 3rem 1rem;
+}
+ul{
+    list-style: none;
+}
+
+/*****************************************************************/
+/***************************** Header ****************************/
+/*****************************************************************/
 header{
     background-color: var(--header-color);
     color: var(--light-color);
@@ -50,18 +63,21 @@ header{
     left: 0;
     z-index: 1000;
 }
+
+/*****************************************************************/
+/****************************** Main *****************************/
+/**************************** General ****************************/
+/*****************************************************************/
 main{
     background-color: var(--light-color);
     color: var(--dark-color);
     margin-top: 80px;
 }
+
+/*****************************************************************/
+/***************************** Footer ****************************/
+/*****************************************************************/
 footer{
     background-color: var(--dark-color);
     color: var(--light-color);
-}
-main section:nth-child(even){
-    background-color: var(--primary-color);
-}
-.container{
-    padding: 2rem 1rem 3rem 1rem;
 }
