@@ -63,6 +63,11 @@ header{
     left: 0;
     z-index: 1000;
 }
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /*****************************************************************/
 /****************************** Main *****************************/
