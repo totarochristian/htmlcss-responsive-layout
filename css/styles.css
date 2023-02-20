@@ -43,6 +43,11 @@ body{
 header{
     background-color: var(--header-color);
     color: var(--light-color);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 main{
     background-color: var(--light-color);
