@@ -71,6 +71,9 @@ header nav{
 header nav ul{
     display: none;
 }
+header nav a, header nav a:visited{
+    color: var(--light-color);
+}
 
 /*****************************************************************/
 /****************************** Main *****************************/
