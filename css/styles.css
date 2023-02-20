@@ -20,6 +20,7 @@
     --header-height: 80px;
     --fs-header: 1.5rem;
     --fs-h2: 1.8rem;
+    --fs-h2-big: 2.8rem;
     --fs-h3: 1.5rem;
     --fs-p: 1.05rem;
     --fs-btn: 0.95rem;
@@ -236,6 +237,12 @@ main{
 }
 .benefit .number, .benefit h3{
     color: var(--primary-color);
+}
+#features h2{
+    color: var(--light-color);
+    font-size: var(--fs-h2-big);
+    text-align: center;
+    padding: 1rem 1rem 4rem 1rem;
 }
 .benefit h3{
     margin-top: 1.5rem;
