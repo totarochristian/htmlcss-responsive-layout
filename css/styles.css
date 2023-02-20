@@ -55,3 +55,6 @@ footer{
 main section:nth-child(even){
     background-color: var(--primary-color);
 }
+.container{
+    padding: 2rem 1rem 3rem 1rem;
+}
