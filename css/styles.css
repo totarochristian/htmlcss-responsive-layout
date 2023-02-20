@@ -90,11 +90,11 @@ h2{
     font-size: var(--fs-btn);
     padding: 0.6rem 3rem;
     border: 2px solid transparent;
+    border-radius: var(--bdr-small);
 }
 .btn-blue{
     color: var(--light-color);
     background-color: var(--header-color);
-    border-radius: var(--bdr-small);
     letter-spacing: .1rem;
     margin: 1.8rem 0 1.8rem 0;
     font-weight: bold;
@@ -103,7 +103,15 @@ h2{
     font-size: calc(var(--fs-btn) + 0.15rem);
     background-color: var(--light-color);
     color: var(--dark-color);
-    border-radius: var(--bdr-small);
+
+    padding: 0.4rem 1rem;
+}
+.btn-purple{
+    font-size: calc(var(--fs-btn) + 0.15rem);
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    letter-spacing: .1rem;
+    font-weight: bold;
     padding: 0.4rem 1rem;
 }
 
