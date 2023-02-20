@@ -3,6 +3,15 @@
 /******************************************************************************/
 :root{
     /* Background variables */
+    
+    /* Color styles */
+    --dark-color: #333333;
+    --header-color: #0084FD;
+    --light-color: #FFFFFF;
+    --primary-color: #9792E4;
+    --card-bg-color: #B5DDFF;
+    --contrast-color: #FDC15F;
+
 
     /* Text colors variables */
 
@@ -13,7 +22,7 @@
     /* Size variables */
 
     /* Transition variables */
-    
+
 }
 
 /***************************************************************/
