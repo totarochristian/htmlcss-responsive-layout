@@ -156,6 +156,7 @@ main{
 }
 .card:first-child img{
     margin-bottom: -4px;
+    max-width: 250px;
 }
 .card-icon{
     font-size: var(--fs-card-icon);
@@ -176,10 +177,13 @@ footer{
 /**************************** Queries ****************************/
 /*****************************************************************/
 @media screen and (min-width: 768px){
-    #intro .container{
+    .d-flex{
         display: flex;
         flex-flow: row wrap;
         gap: 1rem;
+    }
+    .d-f-column{
+        flex-flow: column wrap;
     }
     .card{
         width: calc(100% / 3 - 1rem);
@@ -187,5 +191,29 @@ footer{
     #intro .card:first-child{
         width: calc((100% / 3) * 2 - 1rem);
         display: flex;
+    }
+    .card:first-child img{
+        float: left;
+    }
+}
+@media screen and (min-width: 992px){
+    #intro .card:first-child{
+        flex-flow: column wrap;
+    }
+}
+@media screen and (min-width: 1200px){
+    #intro .card:first-child{
+        flex-flow: row wrap;
+    }
+    .card-left-txt, .card-right-img{
+        width: calc(100% / 2 - 1rem);
+    }
+    .card-right-img{
+        position: relative;
+    }
+    .card-right-img img{
+        position: absolute;
+        bottom: 0;
+        left: 4rem;
     }
 }
