@@ -22,6 +22,7 @@
     --fs-h3: 1.5rem;
     --fs-p: 1.05rem;
     --fs-btn: 0.95rem;
+    --fs-card-icon: 5rem;
 
     /* Transition variables */
 
@@ -153,6 +154,11 @@ main{
 }
 .card:first-child img{
     margin-bottom: -4px;
+}
+.card-icon{
+    font-size: var(--fs-card-icon);
+    color: var(--header-color);
+    margin-bottom: 1.8rem;
 }
 
 /*****************************************************************/
