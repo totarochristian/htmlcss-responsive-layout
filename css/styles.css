@@ -21,6 +21,7 @@
     --fs-header: 1.5rem;
     --fs-h3: 1.5rem;
     --fs-p: 1.05rem;
+    --fs-btn: 0.95rem;
 
     /* Transition variables */
 
@@ -53,11 +54,32 @@ ul{
 .text-center{
     text-align: center;
 }
+.text-left{
+    text-align: left;
+}
 .small-bord-rad{
     border-radius: var(--bdr-small);
 }
 .large-bord-rad{
     border-radius: var(--bdr-large);
+}
+
+/*****************************************************************/
+/**************************** Buttons ****************************/
+/*****************************************************************/
+.btn{
+    color: var(--light-color);
+    font-size: var(--fs-btn);
+    padding: 0.6rem 3rem;
+    border: 2px solid transparent;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+    margin: 1.8rem 0 1.8rem 0;
+}
+.btn-blue{
+    background-color: var(--header-color);
+    border-radius: var(--bdr-small);
 }
 
 /*****************************************************************/
@@ -128,6 +150,9 @@ main{
     opacity: 70%;
     font-size: var(--fs-p);
     line-height: 1.8;
+}
+.card:first-child img{
+    margin-bottom: -4px;
 }
 
 /*****************************************************************/
