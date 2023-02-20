@@ -264,6 +264,7 @@ footer{
         flex-flow: column wrap;
     }
     #planning{
+        min-height: 100vh;
         padding-top: 5rem;
     }
     #planning .leftContent, #planning .rightContent{
