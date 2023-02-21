@@ -233,9 +233,15 @@ main{
 /*****************************************************************/
 /************************* Testimonials **************************/
 /*****************************************************************/
+.testimonial{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    text-align: center;
+}
 .testimonial-photo{
     width: 200px;
     height: 200px;
+    margin: 0 auto;
 }
 .testimonial-photo img{
     width: 100%;
