@@ -335,6 +335,7 @@ main{
 }
 #about-us h3{
     color: var(--primary-color);
+    font-size: calc(var(--fs-h3) + 0.15rem);
 }
 #about-us p{
     margin-bottom: 3rem;
