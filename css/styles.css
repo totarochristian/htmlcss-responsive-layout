@@ -117,6 +117,9 @@ h2{
 .line-height-1-8{
     line-height: 1.8;
 }
+.bold{
+    font-weight: bold;
+}
 
 /*****************************************************************/
 /************************** Font-sizes ***************************/
@@ -298,7 +301,6 @@ main{
     text-align: left;
 }
 .card p{
-    font-weight: bold;
     opacity: 70%;
 }
 .card:first-child img{
@@ -361,9 +363,6 @@ main{
 .testimonial-info .testimonial-description{
     padding: 1.3rem 0 1.8rem 0;
 }
-.testimonial-info .testimonial-name{
-    font-weight: bold;
-}
 #testimonials h2{
     padding: 2rem 0;
 }
@@ -392,7 +391,6 @@ main{
 }
 .benefit .number{
     font-size: var(--fs-benefit-number);
-    font-weight: bold;
 }
 
 /*****************************************************************/
@@ -429,14 +427,12 @@ main{
     opacity: 60%;
 }
 #call-to-action .mot{
-    font-weight: bold;
     padding: 1.8rem 1rem;
 }
 #call-to-action .content{
     padding: 1.8rem 0;
 }
 #call-to-action button{
-    font-weight: bold;
     letter-spacing: .1rem;
     padding: 1rem 3rem;
     border-radius: 40px;
@@ -447,7 +443,6 @@ main{
 #call-to-action .dot{
     font-size: 5px;
     line-height: 15px;
-    font-weight: bold;
     margin: 0 10px;
 }
 
