@@ -26,6 +26,8 @@
     --fs-h2-big: 2.8rem;
     --fs-h3: 1.5rem;
     --fs-p: 1.05rem;
+    --fs-p-1: 1.15rem;
+    --fs-p-3: 1.35rem;
     --fs-btn: 0.95rem;
     --fs-card-icon: 5rem;
     --fs-benefit-number: 3rem;
@@ -62,30 +64,10 @@ main section:nth-child(even){
 ul{
     list-style: none;
 }
-.text-center{
-    text-align: center;
-}
-.text-left{
-    text-align: left;
-}
-.small-bord-rad{
-    border-radius: var(--bdr-small);
-}
-.large-bord-rad{
-    border-radius: var(--bdr-large);
-}
-.capitalize{
-    text-transform: capitalize;
-}
-.italic{
-    font-style: italic;
-}
-.uppercase{
-    text-transform: uppercase;
-}
-.line-height-1-8{
-    line-height: 1.8;
-}
+
+/*****************************************************************/
+/**************************** Titles *****************************/
+/*****************************************************************/
 h3{
     font-size: var(--fs-h3);
     padding-bottom: 1.8rem;
@@ -94,13 +76,57 @@ h2{
     font-size: var(--fs-h2);
     padding: 5rem 0 2.8rem 0;
 }
-.category{
-    font-size: calc(var(--fs-p) + 0.1rem);
+
+/*****************************************************************/
+/**************************** Borders ****************************/
+/*****************************************************************/
+
+.small-bord-rad{
+    border-radius: var(--bdr-small);
 }
-.txt-contrast{
+.large-bord-rad{
+    border-radius: var(--bdr-large);
+}
+
+/*****************************************************************/
+/***************************** Text ******************************/
+/************************** properties ***************************/
+/*****************************************************************/
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-contrast{
     color: var(--contrast-color);
     font-size: calc(var(--fs-h2-big) + 1rem);
     font-weight: bold;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.italic{
+    font-style: italic;
+}
+.line-height-1-8{
+    line-height: 1.8;
+}
+
+/*****************************************************************/
+/************************** Paragraphs ***************************/
+/*****************************************************************/
+.par-default{
+    font-size: var(--fs-p);
+}
+.par-1{
+    font-size: var(--fs-p-1);
+}
+.par-3{
+    font-size: var(--fs-p-3);
 }
 
 /*****************************************************************/
@@ -225,7 +251,6 @@ main{
     color: var(--dark-color);
     font-weight: bold;
     opacity: 70%;
-    font-size: var(--fs-p);
 }
 .card:first-child img{
     margin-bottom: -4px;
@@ -257,7 +282,6 @@ main{
     margin: 1.4rem 0;
 }
 #planning #appDevelopment p{
-    font-size: var(--fs-p);
     font-weight: 500;
 }
 #planning #appDevelopment a, #planning #appDevelopment a:visited{
@@ -299,13 +323,8 @@ main{
 }
 .testimonial-info .testimonial-description{
     padding: 1.3rem 0 1.8rem 0;
-    font-size: calc(var(--fs-p) + 0.1rem);
-}
-.testimonial-info .testimonial-description i{
-    font-size: calc(var(--fs-p) + 0.3rem);
 }
 .testimonial-info .testimonial-name{
-    font-size: calc(var(--fs-p) + 0.3rem);
     font-weight: bold;
 }
 #testimonials h2{
@@ -317,7 +336,6 @@ main{
     padding: 0 0.5rem 3rem 0.5rem;
 }
 #testimonials .init-description p:last-child{
-    font-size: calc(var(--fs-p) + 0.1rem);
     font-weight: 500;
 }
 
@@ -368,7 +386,6 @@ main{
 }
 #about-us p{
     margin-bottom: 3rem;
-    font-size: calc(var(--fs-p) + 0.1rem);
 }
 #about-us h2{
     color: var(--primary-color);
