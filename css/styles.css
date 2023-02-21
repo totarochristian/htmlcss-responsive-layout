@@ -397,6 +397,9 @@ footer .textContainer a{
     .d-f-align-flex-end{
         align-items: flex-end;
     }
+    .gap-5rem{
+        gap: 5rem;
+    }
     .card{
         width: calc(100% / 3 - 1rem);
     }
@@ -424,8 +427,18 @@ footer .textContainer a{
         margin: 0;
     }
     .testimonial-info{
-        width: calc(100% - 200px - 4rem);
+        width: calc(100% - 200px - 5rem);
         text-align: left;
+    }
+    #about-us .left-info{
+        width: calc(100% - 400px - 5rem);
+    }
+    #about-us .right-info{
+        width: 230px;
+    }
+    #about-us .testimonial-photo{
+        width: 230px;
+        height: 230px;
     }
 }
 @media screen and (min-width: 992px){
