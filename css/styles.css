@@ -76,6 +76,9 @@ ul{
 .italic{
     font-style: italic;
 }
+.uppercase{
+    text-transform: uppercase;
+}
 .line-height-1-8{
     line-height: 1.8;
 }
