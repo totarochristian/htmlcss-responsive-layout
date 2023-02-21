@@ -10,6 +10,7 @@ This is a solution to the htmlcss-responsive-layout challenge of [Boolean](https
     - [Desktop](#desktop)
     - [Tablet](#tablet)
     - [Mobile](#mobile)
+    - [Hamburger menu](#hamburger-menu)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -37,6 +38,10 @@ Users should be able to:
 #### Mobile
 
 ![](./screenshot/mobile.png)
+
+#### Hamburger menu
+
+![](./screenshot/hamburger-menu.png)
 
 ### Links
 
