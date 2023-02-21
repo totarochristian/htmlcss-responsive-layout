@@ -241,8 +241,8 @@ main{
     background-color: var(--primary-color);
     color: var(--light-color);
     text-align: center;
-    padding: 2rem 1.5rem 3rem 1.5rem;
-    margin-bottom: 1rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    margin-bottom: 2rem;
 }
 .testimonial-photo{
     width: 200px;
@@ -256,7 +256,15 @@ main{
     border-radius: 50%;
 }
 .testimonial-info .testimonial-description{
-    padding: 1.3rem 0 2rem 0;
+    padding: 1.3rem 0 1.8rem 0;
+    font-size: calc(var(--fs-p) + 0.1rem);
+}
+.testimonial-info .testimonial-description i{
+    font-size: calc(var(--fs-p) + 0.3rem);
+}
+.testimonial-info .testimonial-name{
+    font-size: calc(var(--fs-p) + 0.3rem);
+    font-weight: bold;
 }
 
 /*****************************************************************/
