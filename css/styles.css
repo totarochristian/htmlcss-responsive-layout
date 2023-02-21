@@ -90,6 +90,9 @@ h2{
     font-size: var(--fs-h2);
     padding: 5rem 0 2.8rem 0;
 }
+.category{
+    font-size: calc(var(--fs-p) + 0.1rem);
+}
 
 /*****************************************************************/
 /**************************** Buttons ****************************/
@@ -277,9 +280,6 @@ main{
     font-size: calc(var(--fs-p) + 0.3rem);
     font-weight: bold;
 }
-#testimonials .category{
-    font-size: calc(var(--fs-p) + 0.1rem);
-}
 #testimonials h2{
     padding: 2rem 0;
     color: var(--primary-color);
@@ -351,6 +351,13 @@ main{
     width: 180px;
     height: 180px;
     margin: 0 0 2rem 0;
+}
+
+/*****************************************************************/
+/************************ Call to action *************************/
+/*****************************************************************/
+#call-to-action, #call-to-action a{
+    color: var(--light-color);
 }
 
 /*****************************************************************/
