@@ -241,7 +241,7 @@ main{
     background-color: var(--primary-color);
     color: var(--light-color);
     text-align: center;
-    padding: 2rem 3rem 2rem 3rem;
+    padding: 2rem 1.5rem 3rem 1.5rem;
     margin-bottom: 1rem;
 }
 .testimonial-photo{
@@ -254,6 +254,9 @@ main{
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+}
+.testimonial-info .testimonial-description{
+    padding: 1.3rem 0 2rem 0;
 }
 
 /*****************************************************************/
