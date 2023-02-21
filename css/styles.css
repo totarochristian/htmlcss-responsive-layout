@@ -345,6 +345,11 @@ main{
     font-size: var(--fs-h2-big);
     padding: 1rem 1rem 2rem 0;
 }
+#about-us .testimonial-photo{
+    width: 180px;
+    height: 180px;
+    margin: 0 0 2rem 0;
+}
 
 /*****************************************************************/
 /***************************** Footer ****************************/
