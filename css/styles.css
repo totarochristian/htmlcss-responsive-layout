@@ -5,6 +5,7 @@
     /* Color variables*/
     --dark-color: #333333;
     --header-color: #0084FD;
+    --menu-color: #3ea1fd;
     --light-color: #FFFFFF;
     --primary-color: #9792E4;
     --card-bg-color: #B5DDFF;
@@ -159,10 +160,10 @@ header nav{
     justify-content: space-between;
     align-items: center;
 }
-header nav ul{
+header nav .hamburger-menu ul{
     display: none;
 }
-header nav a, header nav a:visited{
+header nav .hamburger-menu, header nav a, header nav a:visited{
     color: var(--light-color);
     font-size: var(--fs-header);
     text-decoration: none;
@@ -419,6 +420,33 @@ footer .textContainer a{
 /***************************** Media *****************************/
 /**************************** Queries ****************************/
 /*****************************************************************/
+@media screen and (max-width: 1199px){
+    header nav .hamburger-menu:hover ul{
+        display: block;
+        position: fixed;
+        top: calc(var(--header-height) / 2 + 10px);
+        right: 0;
+        background-color: var(--menu-color);
+        padding: 0.5rem;
+        box-shadow: 0 0 5px #888888;
+        margin-right: 0.5rem;
+    }
+    header nav .hamburger-menu ul li a{
+        display: inline-block;
+        width: 200px;
+        text-align: center;
+        padding: 0.5rem 1rem;
+        border: 2px solid transparent;
+    }
+    header nav .hamburger-menu ul li a:hover{
+        background-color: var(--header-color);
+        border: 2px solid var(--light-color);
+        cursor: pointer;
+    }
+    header nav .hamburger-menu:hover li:last-child{
+        display: none;
+    }
+}
 @media screen and (min-width: 768px){
     .d-flex{
         display: flex;
@@ -529,16 +557,16 @@ footer .textContainer a{
     header .container>img{
         margin-left: -1rem;
     }
-    header nav>a{
+    header nav .hamburger-menu i{
         display: none;
     }
-    header nav ul{
+    header nav .hamburger-menu ul{
         display: flex;
         flex-flow: row wrap;
         align-items: center;
         gap: 2rem;
     }
-    header nav a, header nav a:visited{
+    header nav .hamburger-menu{
         font-size: calc(var(--fs-header) - 0.3rem);
     }
     #intro .card:first-child{
