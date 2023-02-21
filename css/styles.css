@@ -385,6 +385,12 @@ main{
 #call-to-action .copyright{
     padding-top: 2rem;
 }
+#call-to-action .dot{
+    font-size: 5px;
+    line-height: 15px;
+    font-weight: bold;
+    margin: 0 10px;
+}
 
 /*****************************************************************/
 /***************************** Footer ****************************/
