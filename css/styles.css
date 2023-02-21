@@ -269,6 +269,10 @@ main{
     margin: 2.5rem 0 1rem 0;
     text-decoration: none;
 }
+#planning #appDevelopment a:hover{
+    background-color: var(--bg-hover-btn-purple);
+    color: var(--light-color);
+}
 
 /*****************************************************************/
 /************************* Testimonials **************************/
