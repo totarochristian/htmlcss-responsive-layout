@@ -233,7 +233,7 @@ main{
     font-size: var(--fs-p);
     font-weight: 500;
 }
-#planning #appDevelopment a{
+#planning #appDevelopment a, #planning #appDevelopment a:visited{
     background-color: var(--primary-color);
     width: 50px;
     height: 50px;
@@ -241,6 +241,7 @@ main{
     font-size: var(--fs-h3);
     padding-top: 12px;
     margin: 2.5rem 0 1rem 0;
+    text-decoration: none;
 }
 
 /*****************************************************************/
