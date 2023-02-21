@@ -237,6 +237,7 @@ main{
 /************************* Testimonials **************************/
 /*****************************************************************/
 .testimonial{
+    min-width: 294px;
     background-color: var(--primary-color);
     color: var(--light-color);
     text-align: center;
@@ -322,6 +323,9 @@ footer .textContainer a{
     .d-f-column{
         flex-flow: column wrap;
     }
+    .d-f-align-center{
+        align-items: center;
+    }
     .d-f-align-flex-end{
         align-items: flex-end;
     }
@@ -343,6 +347,16 @@ footer .textContainer a{
     }
     .benefit{
         width: calc(100% / 2 - 1.5rem);
+    }
+    .testimonial{
+        width: 100%;
+    }
+    .testimonial-photo{
+        margin: 0;
+    }
+    .testimonial-info{
+        width: calc(100% - 200px - 4rem);
+        text-align: left;
     }
 }
 @media screen and (min-width: 992px){
