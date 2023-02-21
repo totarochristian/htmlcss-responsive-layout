@@ -32,6 +32,7 @@
 
     /* Transition variables */
     --trans-btn: 0.3s;
+    --trans-hamb-menu-li: 0.3s;
 }
 
 /***************************************************************/
@@ -458,7 +459,7 @@ footer .textContainer a{
         text-align: center;
         padding: 0.5rem 1rem;
         border: 2px solid transparent;
-        transition: all 0.3s linear;
+        transition: all var(--trans-hamb-menu-li) linear;
     }
     header nav .hamburger-menu ul li a:hover{
         background-color: var(--header-color);
