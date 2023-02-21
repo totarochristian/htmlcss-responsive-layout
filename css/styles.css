@@ -266,6 +266,21 @@ main{
     font-size: calc(var(--fs-p) + 0.3rem);
     font-weight: bold;
 }
+#testimonials .category{
+    font-size: calc(var(--fs-p) + 0.1rem);
+}
+#testimonials h2{
+    padding: 2rem 0;
+    color: var(--primary-color);
+    font-size: calc(var(--fs-h2) + 0.2rem);
+}
+#testimonials .init-description{
+    padding: 0 0.5rem 3rem 0.5rem;
+}
+#testimonials .init-description p:last-child{
+    font-size: calc(var(--fs-p) + 0.1rem);
+    font-weight: 500;
+}
 
 /*****************************************************************/
 /*************************** Features ****************************/
