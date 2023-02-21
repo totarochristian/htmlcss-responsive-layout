@@ -240,6 +240,8 @@ main{
     background-color: var(--primary-color);
     color: var(--light-color);
     text-align: center;
+    padding: 2rem 3rem 2rem 3rem;
+    margin-bottom: 1rem;
 }
 .testimonial-photo{
     width: 200px;
