@@ -120,6 +120,9 @@ h2{
 .bold{
     font-weight: bold;
 }
+.regular{
+    font-weight: 500;
+}
 
 /*****************************************************************/
 /************************** Font-sizes ***************************/
@@ -325,9 +328,6 @@ main{
 #planning #appDevelopment h3{
     margin: 1.4rem 0;
 }
-#planning #appDevelopment p{
-    font-weight: 500;
-}
 #planning #appDevelopment a, #planning #appDevelopment a:visited{
     width: 50px;
     height: 50px;
@@ -368,9 +368,6 @@ main{
 }
 #testimonials .init-description{
     padding: 0 0.5rem 3rem 0.5rem;
-}
-#testimonials .init-description p:last-child{
-    font-weight: 500;
 }
 
 /*****************************************************************/
