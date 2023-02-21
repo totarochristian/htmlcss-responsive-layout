@@ -23,12 +23,16 @@
     --header-height: 80px;
     --fs-header: 1.5rem;
     --fs-h2: 1.8rem;
-    --fs-h2-big: 2.8rem;
+    --fs-h2-0-2: 2rem;
+    --fs-h2-1: 2.8rem;
+    --fs-h2-2: 3.8rem;
+    --fs-h2-3: 4.8rem;
     --fs-h3: 1.5rem;
     --fs-p: 1.05rem;
     --fs-p-1: 1.15rem;
     --fs-p-3: 1.35rem;
     --fs-btn: 0.95rem;
+    --fs-btn_0_15: 1.05rem;
     --fs-card-icon: 5rem;
     --fs-benefit-number: 3rem;
 
@@ -80,7 +84,6 @@ h2{
 /*****************************************************************/
 /**************************** Borders ****************************/
 /*****************************************************************/
-
 .small-bord-rad{
     border-radius: var(--bdr-small);
 }
@@ -100,7 +103,6 @@ h2{
 }
 .text-contrast{
     color: var(--contrast-color);
-    font-size: calc(var(--fs-h2-big) + 1rem);
     font-weight: bold;
 }
 .capitalize{
@@ -114,6 +116,28 @@ h2{
 }
 .line-height-1-8{
     line-height: 1.8;
+}
+
+/*****************************************************************/
+/************************** Font-sizes ***************************/
+/*****************************************************************/
+.fs-h3{
+    font-size: var(--fs-h3);
+}
+.fs-h2{
+    font-size: var(--fs-h2);
+}
+.fs-h2-0-2{
+    font-size: var(--fs-h2-0-2);
+}
+.fs-h2-1{
+    font-size: var(--fs-h2-1);
+}
+.fs-h2-2{
+    font-size: var(--fs-h2-2);
+}
+.fs-h2-3{
+    font-size: var(--fs-h2-3);
 }
 
 /*****************************************************************/
@@ -154,7 +178,7 @@ h2{
     background-color: var(--bg-hover-btn-blue);
 }
 .btn-white{
-    font-size: calc(var(--fs-btn) + 0.15rem);
+    font-size: var(--fs-btn_0_15);
     background-color: var(--light-color);
     color: var(--dark-color);
     padding: 0.4rem 1rem;
@@ -278,7 +302,6 @@ main{
     color: var(--dark-color);
 }
 #planning #appDevelopment h3{
-    font-size: var(--fs-h3);
     margin: 1.4rem 0;
 }
 #planning #appDevelopment p{
@@ -289,7 +312,6 @@ main{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    font-size: var(--fs-h3);
     padding-top: 12px;
     margin: 2.5rem 0 1rem 0;
     text-decoration: none;
@@ -330,7 +352,6 @@ main{
 #testimonials h2{
     padding: 2rem 0;
     color: var(--primary-color);
-    font-size: calc(var(--fs-h2) + 0.2rem);
 }
 #testimonials .init-description{
     padding: 0 0.5rem 3rem 0.5rem;
@@ -352,7 +373,7 @@ main{
 }
 #features h2{
     color: var(--light-color);
-    font-size: var(--fs-h2-big);
+    font-size: var(--fs-h2-1);
     text-align: center;
     padding: 1rem 1rem 4rem 1rem;
 }
@@ -389,7 +410,7 @@ main{
 }
 #about-us h2{
     color: var(--primary-color);
-    font-size: var(--fs-h2-big);
+    font-size: var(--fs-h2-1);
     padding: 1rem 1rem 2rem 0;
 }
 #about-us .testimonial-photo{
@@ -408,7 +429,6 @@ main{
     opacity: 60%;
 }
 #call-to-action .mot{
-    font-size: var(--fs-h2);
     font-weight: bold;
     padding: 1.8rem 1rem;
 }
@@ -549,10 +569,10 @@ footer .textContainer a{
         height: 230px;
     }
     #call-to-action .mot{
-        font-size: calc(var(--fs-h2) + 1rem);
+        font-size: var(--fs-h2-1);
     }
-    #call-to-action .txt-contrast{
-        font-size: calc(var(--fs-h2-big) + 2rem);
+    #call-to-action .text-contrast{
+        font-size: var(--fs-h2-3);
     }
     #call-to-action .content{
         max-width: 500px;
