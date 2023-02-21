@@ -567,6 +567,13 @@ footer .textContainer a{
         align-items: center;
         gap: 2rem;
     }
+    header nav .hamburger-menu ul li{
+        border-bottom: 3px solid transparent;
+        padding-bottom: 5px;
+    }
+    header nav .hamburger-menu ul li:not([ignore-hover]):hover{
+        border-bottom: 3px solid var(--light-color);
+    }
     header nav .hamburger-menu{
         font-size: calc(var(--fs-header) - 0.3rem);
     }
