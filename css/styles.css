@@ -474,6 +474,20 @@ footer .textContainer a{
         width: 230px;
         height: 230px;
     }
+    #call-to-action .mot{
+        font-size: calc(var(--fs-h2) + 1rem);
+    }
+    #call-to-action .txt-contrast{
+        font-size: calc(var(--fs-h2-big) + 2rem);
+    }
+    #call-to-action .content{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    #call-to-action button{
+        padding: 2rem 5rem;
+        border-radius: 50px;
+    }
 }
 @media screen and (min-width: 992px){
     #intro .card:first-child{
