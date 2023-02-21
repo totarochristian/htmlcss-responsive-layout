@@ -100,6 +100,9 @@ h2{
     border: 2px solid transparent;
     border-radius: var(--bdr-small);
 }
+.btn i{
+    margin-right: 0.5rem;
+}
 .btn-blue{
     color: var(--light-color);
     background-color: var(--header-color);
@@ -121,6 +124,13 @@ h2{
     letter-spacing: .1rem;
     font-weight: bold;
     padding: 0.6rem 2.8rem;
+}
+.btn-no-spacing{
+    letter-spacing: 0;
+}
+.btn-hor-padd-small{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 /*****************************************************************/
@@ -308,6 +318,23 @@ main{
 .benefit .number{
     font-size: var(--fs-benefit-number);
     font-weight: bold;
+}
+
+/*****************************************************************/
+/*************************** About us ****************************/
+/*****************************************************************/
+#about-us .testimonial-photo{
+    position: relative;
+}
+#about-us .testimonial-photo i{
+    font-size: 5rem;
+    color: var(--primary-color);
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+}
+#about-us h3{
+    color: var(--primary-color);
 }
 
 /*****************************************************************/
