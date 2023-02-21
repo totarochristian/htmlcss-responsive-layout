@@ -93,6 +93,11 @@ h2{
 .category{
     font-size: calc(var(--fs-p) + 0.1rem);
 }
+.txt-contrast{
+    color: var(--contrast-color);
+    font-size: calc(var(--fs-h2-big) + 1rem);
+    font-weight: bold;
+}
 
 /*****************************************************************/
 /**************************** Buttons ****************************/
@@ -358,6 +363,27 @@ main{
 /*****************************************************************/
 #call-to-action, #call-to-action a{
     color: var(--light-color);
+}
+#call-to-action .category{
+    opacity: 60%;
+}
+#call-to-action .mot{
+    font-size: var(--fs-h2);
+    font-weight: bold;
+    padding: 1.8rem 1rem;
+}
+#call-to-action .content{
+    padding: 1.8rem 0;
+}
+#call-to-action button{
+    color: var(--primary-color);
+    font-weight: bold;
+    letter-spacing: .1rem;
+    padding: 1rem 3rem;
+    border-radius: 40px;
+}
+#call-to-action .copyright{
+    padding-top: 2rem;
 }
 
 /*****************************************************************/
